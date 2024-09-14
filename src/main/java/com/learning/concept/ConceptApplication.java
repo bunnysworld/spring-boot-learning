@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan("com.learning.concept.qualifier	")
+@ComponentScan("com.learning.concept.conditionOnProperty")
 @SpringBootApplication
 public class ConceptApplication {
 
