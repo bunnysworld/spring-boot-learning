@@ -1,2 +1,5 @@
-database:
-  sql:
+spring:
+  profiles:
+    active: prod
+user: defaultUser
+pass: defaultPassword
