@@ -1,5 +1,10 @@
 spring:
   profiles:
     active:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: concept
+      auto-index-creation: false
 user: defaultUser
 pass: defaultPassword
