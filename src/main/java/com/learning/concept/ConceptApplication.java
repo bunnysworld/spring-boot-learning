@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@ComponentScan("com.learning.concept.interceptor")
+@ComponentScan("com.learning.concept.hateoas")
 @SpringBootApplication
 @EnableTransactionManagement
 @EnableAsync

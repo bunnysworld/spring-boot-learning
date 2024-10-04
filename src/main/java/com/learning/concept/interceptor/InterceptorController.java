@@ -14,8 +14,7 @@ public class InterceptorController {
 
     @GetMapping
     public String getInterceptor() {
-        System.out.println("Inside Interceptor main method : " + Thread.currentThread().getName());
-        var i = 25 / 0;
+        System.out.println("Inside Interceptor main method");
         return "interceptor";
     }
 

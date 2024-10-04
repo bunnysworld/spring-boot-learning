@@ -26,6 +26,8 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	implementation 'org.springframework.boot:spring-boot-starter-aop:3.3.3'
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb:3.3.4'
+	implementation 'org.springframework.boot:spring-boot-starter-hateoas:3.3.4'
+
 }
 
 tasks.named('test') {
